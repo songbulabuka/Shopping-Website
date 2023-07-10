@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>jspservlet.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>jspservlet.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>buy2Servlet</servlet-name>
+    <servlet-class>jspservlet.servlet.Buy2Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>jspservlet.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>orderServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.OrderServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ShopServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.ShopServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddOrderServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.AddOrderServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddShopServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.AddShopServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>SearchServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.SearchServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>DisplayServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.DisplayServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AllproductServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.AllproductServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DirectBuyServlet</servlet-name>
+  	<servlet-class>jspservlet.servlet.DirectBuyServlet</servlet-class>
+  </servlet>
+  
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>orderServlet</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ShopServlet</servlet-name>
+    <url-pattern>/shop</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddOrderServlet</servlet-name>
+    <url-pattern>/addorder</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>AddShopServlet</servlet-name>
+    <url-pattern>/addshop</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>AllproductServlet</servlet-name>
+    <url-pattern>/all</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>DirectBuyServlet</servlet-name>
+    <url-pattern>/directbuy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>buy2Servlet</servlet-name>
+    <url-pattern>/buy2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>deleteServlet</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
